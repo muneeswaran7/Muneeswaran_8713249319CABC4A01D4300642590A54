@@ -26,7 +26,7 @@ class BankAccount:
         print(f"Account Balance: Rs.{self.__account_balance}")
 
 # Create an instance of the BankAccount class
-account1 = BankAccount("212203440", "bharathwaj",10000.00)
+account1 = BankAccount("212203440", "bharathwaj")
 
 # Deposit and withdraw money
 account1.display_balance()
